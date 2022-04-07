@@ -7,6 +7,8 @@ Greedy Search algorithm for UMODL criterion
 
 ### How to use it ?
 
+Explanatory variable should be numerical, binary treatment variable {0,1}, and binary outcome variable {0,1}.
+
 <pre><code>
 from UMODL_SearchAlgorithm import ExecuteGreedySearchAndPostOpt
 import pandas as pd
