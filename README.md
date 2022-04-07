@@ -15,8 +15,8 @@ from UMODL_SearchAlgorithm import ExecuteGreedySearchAndPostOpt
 import pandas as pd
 
 df = pd.read_csv(data.csv)
-df_feature=df[['Variable','treatment','outcome']]
-feature_level,DiscretizationBounds=ExecuteGreedySearchAndPostOpt.(df_feature)
+feature=df[['Variable','treatment','outcome']]
+feature_level,DiscretizationBounds=ExecuteGreedySearchAndPostOpt(feature)
 
 </code></pre>
 
