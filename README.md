@@ -39,7 +39,7 @@ Python 3.7
 ![image](https://user-images.githubusercontent.com/75427835/162023603-1abbe527-bfaf-4d7e-942b-bd15d52e6ac6.png)![image](https://user-images.githubusercontent.com/75427835/162020414-1130e885-829f-4316-93c1-48c0613babab.png)
 
 ==========================================================================================
-Positive Negative UNBALANCED
+### Unbalanced treatment and control groups
 
 ![image](https://user-images.githubusercontent.com/75427835/162019221-8bbb4d59-dabc-42c0-ad9c-2699188c8475.png)
 ![image](https://user-images.githubusercontent.com/75427835/162020546-ed029145-a4a0-4f64-83ab-f753f5614cd3.png)
