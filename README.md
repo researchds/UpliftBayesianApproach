@@ -46,7 +46,8 @@ Python 3.7
 
 ==========================================================================================
 
-Positive Zero UNBALANCED
+### Unbalanced treatment and control groups
+
 
 ![image](https://user-images.githubusercontent.com/75427835/162019167-3e19591f-d93f-4051-9a5d-b83a1679280e.png)
 ![image](https://user-images.githubusercontent.com/75427835/162020509-070b04be-f473-4833-81b2-51585237a311.png)
