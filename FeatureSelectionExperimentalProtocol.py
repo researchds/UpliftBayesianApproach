@@ -233,7 +233,7 @@ for train_index, test_index in trainTestIndices:
             if len(d[k][1])==1:#If There is only one interval in the data then val is zero
                 l[k]=0
             else:
-                l[k]=d[k][0][1]#returns the value of the euclidean distance in the founded intervals
+                l[k]=d[k][0]#returns the value of the euclidean distance in the founded intervals
         NewList.append(l)
     loaded_list=NewList.copy()
     result = {}
