@@ -2,13 +2,13 @@
 
 This repository contains the code of the paper entitled : Non-Parameteric Bayesian Approach for Uplift Discretization and Feature Selection submitted to  the conference ECML/PKDD 2022.
 
-### Abstract:
+## Abstract:
 Uplift modeling aims to estimate the incremental impact of a treatment, such as a marketing campaign or a drug, on an individual’s outcome. Uplift data of Bank or Telecom have often hundreds to thousands of features. In such situations, detection of irrelevant features is an essential step to reduce computational time and increase model performance. We present a parameter-free feature selection method for uplift modeling founded on a Bayesian approach. We start by defining UMODL an automatic feature discretization method for uplift. UMODL is based on a space of discretization models and a prior distribution. From this model space, we define a Bayes optimal evaluation criterion of a discretization model for uplift.  We then propose a O(n log n) optimization algorithm that finds near-optimal discretization for estimating uplift. Experiments demonstrate the high performances obtained by this new discretization method. Then we describe UMODL feature selection a parameter-free feature selection method for uplift. Experiments show that the new method both removes irrelevant features and achieves better performances than state of the art methods.
 
-### CODE
+## CODE
 Greedy Search algorithm for UMODL criterion
 
-#### How to use it ?
+### How to use it ?
 
 <pre><code>
 from UMODL_SearchAlgorithm import ExecuteGreedySearchAndPostOpt
@@ -21,10 +21,10 @@ feature_level,DiscretizationBounds=ExecuteGreedySearchAndPostOpt.(df_feature)
 </code></pre>
 
 
-### Requirements
+## Requirements
 Python 3.7
 
-### Supplementary material
+## Supplementary material
 
 ![image](https://user-images.githubusercontent.com/75427835/162019101-ebcebd91-907a-43a7-ad2a-12267836cc24.png)
 ![image](https://user-images.githubusercontent.com/75427835/162020092-4f0471c4-9aee-4865-ad92-265a59a6896c.png)
