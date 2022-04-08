@@ -32,8 +32,6 @@ After runnning the file **FeatureSelectionExperimentalProtocol.py** the followin
 
 **OtherScores.pkl** will contain the Top M variables selected by each of the state-of-art feature selection methods, where M are the number of non-zero scored variables by UMODL.
 
-Experiments Done for **Zenodo Datasets** are done for each pattern (for each trial_id):
-Data corresponding to each trial_id are split to train and test sets with ratio (0.8/0.2). The average qini for all trial_ids is computed.
 
 
 ## Supplementary material
