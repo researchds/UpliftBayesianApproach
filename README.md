@@ -23,6 +23,18 @@ feature_level,DiscretizationBounds=ExecuteGreedySearchAndPostOpt(feature)
 ## Requirements
 Python 3.7
 
+## Feature selection experiments
+After runnning the file **FeatureSelectionExperimentalProtocol.py** the following files will be generated:
+
+**FINALRESULT10.pkl** will contain all the qini results from the experimental protocol for feature selection for all folds for feature selection methods.
+
+**MODL_Scores.pkl** will contain the UMODL scores for each variable in each fold. Noisy variables will always have zero scores and ignored in the uplift modeling process.
+
+**OtherScores.pkl** will contain the Top M variables selected by each of the state-of-art feature selection methods, where M are the number of non-zero scored variables by UMODL.
+
+Experiments Done for **Zenodo Datasets** are done for each pattern (for each trial_id)
+
+
 ## Supplementary material
 
 ![image](https://user-images.githubusercontent.com/75427835/162019101-ebcebd91-907a-43a7-ad2a-12267836cc24.png)
@@ -51,14 +63,6 @@ Python 3.7
 ![image](https://user-images.githubusercontent.com/75427835/162019167-3e19591f-d93f-4051-9a5d-b83a1679280e.png)
 ![image](https://user-images.githubusercontent.com/75427835/162020509-070b04be-f473-4833-81b2-51585237a311.png)
 
-## Feature selection experiments
-After runnning the file **FeatureSelectionExperimentalProtocol.py** the following files will be generated:
-
-**FINALRESULT10.pkl** will contain all the qini results from the experimental protocol for feature selection for all folds for feature selection methods.
-
-**MODL_Scores.pkl** will contain the UMODL scores for each variable in each fold. Noisy variables will always have zero scores and ignored in the uplift modeling process.
-
-**OtherScores.pkl** will contain the Top M variables selected by each of the state-of-art feature selection methods, where M are the number of non-zero scored variables by UMODL.
 
 
 
