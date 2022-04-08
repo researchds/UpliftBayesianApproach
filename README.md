@@ -52,9 +52,11 @@ Python 3.7
 ![image](https://user-images.githubusercontent.com/75427835/162020509-070b04be-f473-4833-81b2-51585237a311.png)
 
 ## Feature selection experiments
-After runnning the file **FeatureSelectionExperimentalProtocol.py** a file named **FINALRESULT10.pkl** will be generated and will contain all the qini results from the experimental protocol for feature selection for all folds for feature selection methods.
+After runnning the file **FeatureSelectionExperimentalProtocol.py** the following files will be generated:
 
-**MODL_Scores.pkl** contains the UMODL scores for each variable in each fold. Noisy variables will always have zero scores and ignored in the uplift modeling process.
+**FINALRESULT10.pkl** will contain all the qini results from the experimental protocol for feature selection for all folds for feature selection methods.
+
+**MODL_Scores.pkl** will contain the UMODL scores for each variable in each fold. Noisy variables will always have zero scores and ignored in the uplift modeling process.
 
 **OtherScores.pkl** will contain the Top M variables selected by each of the state-of-art feature selection methods, where M are the number of non-zero scored variables by UMODL.
 
