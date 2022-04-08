@@ -2,7 +2,7 @@
 
 This repository contains the code of the paper entitled : Non-Parameteric Bayesian Approach for Uplift Discretization and Feature Selection submitted to  the conference ECML/PKDD 2022.
 
-## CODE
+## UMODL Search algorithm CODE
 Greedy Search algorithm for UMODL criterion
 
 ### How to use it ?
@@ -51,7 +51,12 @@ Python 3.7
 ![image](https://user-images.githubusercontent.com/75427835/162019167-3e19591f-d93f-4051-9a5d-b83a1679280e.png)
 ![image](https://user-images.githubusercontent.com/75427835/162020509-070b04be-f473-4833-81b2-51585237a311.png)
 
+## Feature selection experiments
+After runnning the file *FeatureSelectionExperimentalProtocol.py* a file named "FINALRESULT10.pkl" will be generated and will contain all the qini results from the experimental protocol for feature selection for all folds for feature selection methods.
 
+MODL_Scores.pkl contains the UMODL scores for each variable in each fold. Noisy variables will always have zero scores and ignored in the uplift modeling process.
+
+OtherScores.pkl will contain the Top M variables selected by each of the state-of-art feature selection methods, where M are the number of non-zero scored variables by UMODL.
 
 
 
